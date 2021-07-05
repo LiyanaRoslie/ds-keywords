@@ -5,6 +5,7 @@
 - [Libraries used](#libraries-used)
 - [Data preprocessing](#data-preprocessing)
 - [Exploratory data analysis overview](#exploratory-data-analysis-overview)
+- [Topic modelling overview](#topic-modelling-overview)
 
 <div id="objective"></div>
 
@@ -57,6 +58,7 @@ Please have the following Python libraries installed to run the Jupyter Notebook
 <div id="data-preprocessing"></div>
 
 ## Data preprocessing
+
 Text data has to be cleaned before doing any EDA. The cleaned text data has to be transformed before doing topic modelling.
 
 There are the methods employed to clean the text data:
@@ -80,4 +82,18 @@ The methods below are employed to transform text data to fit for topic modelling
 <div id="exploratory-data-analysis-overview"></div>
 
 ## Exploratory data analysis overview
+
 **Three** different insights were obtained from doing exploratory data analysis (EDA) on TowardsDataScience.com articles' contents while **six** different insights were obtained from doing EDA on Glassdoor jobs's listings. Wordcloud, countplot and boxplot are used to illustrate the findings and insights. 
+
+<div id="topic-modelling-overview"></div>
+
+## Topic modelling overview
+
+These are the list of models and the parameters that were applied to discover the important data science keywords. Each model and its different parameters were being tested in **many rounds** by constantly improving the stopwords definition so that it could deliver better results
+
+Model name | Parameter applied
+-----------|-------------------
+Latent Semantic Analysis (LSA) | Bag-of-words (BOW)
+Latent Semantic Analysis (LSA) | Term frequency–inverse document frequency (TF-IDF)
+Latent Dirichlet Allocation (LDA) | Bag-of-words (BOW)
+Latent Dirichlet Allocation (LDA) | Term frequency–inverse document frequency (TF-IDF)
