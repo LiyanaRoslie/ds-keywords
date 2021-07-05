@@ -1,7 +1,9 @@
-# ds-keywords
+# Table of contents
+- [Datasets](#datasets)
 
-Github repo: https://github.com/LiyanaRoslie/ds-keywords
+<div id="datasets"></div>
 
-All data science datasets can be retrieved here:<br/>
-includes articles and job articles datasets that have been cleaned<br/>
+## Datasets
+
+All data science datasets can be retrieved in the link below:
 https://drive.google.com/drive/folders/16V2F0zCvEC2sgFsWtTSWDgYyy66IH4c_?usp=sharing
