@@ -4,6 +4,7 @@
 - [Datasets](#datasets)
 - [Libraries used](#libraries-used)
 - [Data preprocessing](#data-preprocessing)
+- [Exploratory data analysis overview](#exploratory-data-analysis-overview)
 
 <div id="objective"></div>
 
@@ -75,3 +76,8 @@ The methods below are employed to transform text data to fit for topic modelling
 * lemmatization - change words to noun
 * stemming - reduce words to root form
 * convert into list of tokens which are further transformed into ` bag-of-words ` and ` TF-IDF ` models
+
+<div id="exploratory-data-analysis-overview"></div>
+
+## Exploratory data analysis overview
+**Three** different insights were obtained from doing exploratory data analysis (EDA) on TowardsDataScience.com articles' contents while **six** different insights were obtained from doing EDA on Glassdoor jobs's listings. Wordcloud, countplot and boxplot are used to illustrate the findings and insights. 
