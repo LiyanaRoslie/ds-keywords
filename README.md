@@ -1,6 +1,13 @@
 # Table of contents
+- [Objective](#objective)
 - [Project overview](#project-overview)
 - [Datasets](#datasets)
+
+<div id="objective"></div>
+
+## Objective
+
+Find what topics or keywords or domains that are relevant and important in the Data Science industry. This might help someone to navigate their career in data science.
 
 <div id="project-overview"></div>
 
