@@ -3,6 +3,7 @@
 - [Project overview](#project-overview)
 - [Datasets](#datasets)
 - [Libraries used](#libraries-used)
+- [Data preprocessing](#data-preprocessing)
 
 <div id="objective"></div>
 
@@ -51,3 +52,26 @@ Please have the following Python libraries installed to run the Jupyter Notebook
 * gensim
 * pyLDAvis
 * pyLDAvis.gensim_models
+
+<div id="data-preprocessing"></div>
+
+## Data preprocessing
+Text data has to be cleaned before doing any EDA. The cleaned text data has to be transformed before doing topic modelling.
+
+There are the methods employed to clean the text data:
+* remove punctuation
+* remove escape characters
+* remove special characters
+* remove duplicated data
+* define stopwords for articles' contents and jobs' listings separately. Stopwords are frequently used words or holds not much meaning so they have to be removed.
+* make all data to be in lowercase
+* remove articles with missing content
+* remove authors' names in articles
+* remove reading time summary in articles' contents
+* remove company name in jobs' listings
+* extract company name in company column before “\n” appears
+
+The methods below are employed to transform text data to fit for topic modelling:
+* lemmatization - change words to noun
+* stemming - reduce words to root form
+* convert into list of tokens which are further transformed into ` bag-of-words ` and ` TF-IDF ` models
